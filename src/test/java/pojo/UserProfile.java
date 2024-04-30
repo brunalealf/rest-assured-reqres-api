@@ -1,3 +1,4 @@
+package pojo;
 
 public class UserProfile {
 	private String name;

@@ -1,8 +1,11 @@
+package test;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import pojo.User;
+import pojo.UserProfile;
+
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.matchesPattern;
 import static org.hamcrest.Matchers.emptyOrNullString;
